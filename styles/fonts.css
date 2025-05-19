@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: "DrukCyre";
+    font-family: "DrukCyr";
     src: 
         url("../assets/fonts/DrukCyr/ttf/DrukCyr-Medium.ttf") format("truetype"),
         url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Medium.woff") format("woff"),
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    font-family: "DrukCyre";
+    font-family: "DrukCyr";
     src: 
         url("../assets/fonts/DrukCyr/ttf/DrukCyr-Bold.ttf") format("truetype"),
         url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Bold.woff") format("woff"),
