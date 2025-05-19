@@ -1,0 +1,15 @@
+.container {
+    padding: var(--padding-container);
+    margin: var(--margin-sections) auto;
+    max-width: 1200px;
+    /* max-width: var(--breakpoint-desktop); */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color-white);
+    color: var(--text-color-black);
+    font-family: var(--font-name-text);
+    font-weight: 400;
+}
