@@ -1,0 +1,94 @@
+/* Reset CSS - modern and clean reset for consistent styling */
+
+/* Apply border-box box-sizing to all elements and pseudo-elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, ul, ol, 
+fieldset, legend, textarea, pre, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles for ul, ol */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove text decoration from anchors */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Remove default button styles */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Reset input, textarea, select */
+input, textarea, select {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Set strong and b bold */
+b, strong {
+  font-weight: bolder;
+}
+
+/* Make images and embed elements responsive */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove all animations and transitions for performance on prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Prevent underlines on focused links (optional, but common in reset) */
+a:focus {
+  outline: none;
+}
+
+/* Reset table styling */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove quotes for blockquote and q */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
