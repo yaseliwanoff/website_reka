@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "PTRootUI";
+    src: 
+        url("../assets/fonts/PTRootUI/ttf/PT-Root-UI_Light.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Light.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Light.woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PTRootUI";
+    src: 
+        url("../assets/fonts/PTRootUI/ttf/PT-Root-UI_Regular.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Regular.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Regular.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PTRootUI";
+    src: 
+        url("../assets/fonts/PTRootUI/ttf/PT-Root-UI_Medium.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Medium.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PTRootUI";
+    src: 
+        url("../assets/fonts/PTRootUI/ttf/PT-Root-UI_Bold.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Bold.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Bold.woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "DrukCyre";
+    src: 
+        url("../assets/fonts/DrukCyr/ttf/DrukCyr-Medium.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Medium.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DrukCyre";
+    src: 
+        url("../assets/fonts/DrukCyr/ttf/DrukCyr-Bold.ttf") format("truetype"),
+        url("../assets/fonts/PTRootUI/woff/PT-Root-UI_Bold.woff") format("woff"),
+        url("../assets/fonts/PTRootUI/woff2/PT-Root-UI_Bold.woff2");
+    font-weight: 700;
+    font-style: bold;
+}
