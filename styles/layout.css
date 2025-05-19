@@ -1,6 +1,6 @@
 .container {
     padding: var(--padding-container);
-    margin: var(--margin-sections) auto;
+    margin: 0 auto;
     max-width: 1200px;
     /* max-width: var(--breakpoint-desktop); */
     width: 100%;
