@@ -1,6 +1,94 @@
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     background-color: var(--background-color-white);
-    height: 80px;
-    border: 1px solid red;
+    padding: 0;
+    height: auto;
+    /* border: 1px solid red; */
+    z-index: 999;
+}
+
+.header .header-left-block {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left-block .header-left-block-logo {
+    padding-inline: 50px;
+}
+
+.header .header-left-block .header-left-block-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left-block .header-left-block-menu ul .header-left-block-item:first-of-type {
+    border-left: 1px solid #E4E4E4;
+}
+
+.header .header-left-block .header-left-block-menu ul .header-left-block-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .header-left-block .header-left-block-menu ul .header-left-block-item a {
+    padding: 26px 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-height: 80px;
+    transition: var(--transition);
+    font-size: var(--desktop-text-size-menu);
+}
+
+.header .header-left-block .header-left-block-menu ul .header-left-block-item a:hover {
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+.header .header-right-block {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-right-block .header-right-block-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-right-block .header-right-block-menu ul .header-right-block-item:last-of-type {
+    border-right: 1px solid #E4E4E4;
+}
+
+.header .header-right-block .header-right-block-menu ul .header-right-block-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .header-right-block .header-right-block-menu ul .header-right-block-item a {
+    padding: 26px 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-height: 80px;
+    transition: var(--transition);
+    font-size: var(--desktop-text-size-menu);
+}
+
+.header .header-right-block .header-right-block-menu ul .header-right-block-item a:hover {
+    background-color: #f4f4f4;
+}
+
+.header .header-right-block .contact {
+    font-size: var(--desktop-text-size-menu);
+    padding-inline: 50px;
+    display: flex;
+    gap: 5px;
 }
