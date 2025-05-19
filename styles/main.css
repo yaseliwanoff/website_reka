@@ -1,0 +1,86 @@
+@import url("../styles/fonts.css");
+@import url("../styles/layout.css");
+@import url("../styles/devices.css");
+@import url("../styles/reset..css");
+
+@import url("../styles/sections/header_style.css");
+
+:root {
+    --text-color-white: #FFFFFF;
+    --text-color-black: #2E2E2E;
+    --text-color-gray-light: #ADADAD;
+    --text-color-grayl-black: #707070;
+
+    --background-color-black: #2E2E2E;
+    --background-color-white: #FFFFFF;
+    --background-color-purple: #8A8CCE;
+
+    --border-color-gray: #E4E4E4;
+    --border-color-purple: #8A8CCE;
+
+    --font-name-title: "DrukCyr";
+    --font-name-text: "PTRootUI";
+
+    --desktop-text-size-h1: 120px;
+    --desktop-text-size-h2: 90px;
+    --desktop-text-size-h3: 60px;
+    --desktop-text-size-h4: 35px;
+    --desktop-text-size-menu: 22px;
+    --desktop-text-size-button: 22px;
+    --desktop-text-size-description-default: 20px;
+    --desktop-text-size-description-low: 17px;
+    --desktop-text-size-sub: 15px;
+
+    --tablet-text-size-h1: 80px;
+    --tablet-text-size-h2: 65px;
+    --tablet-text-size-h3: 45px;
+    --tablet-text-size-h4: 27px;
+    --tablet-text-size-menu: 18px;
+    --tablet-text-size-button: 18px;
+    --tablet-text-size-description-default: 16px;
+    --tablet-text-size-description-low: 14px;
+    --tablet-text-size-sub: 12px;
+
+    --phone-text-size-h1: 50px;
+    --phone-text-size-h2: 38px;
+    --phone-text-size-h3: 25px;
+    --phone-text-size-h4: 18px;
+    --phone-text-size-menu: 14px;
+    --phone-text-size-button: 14px;
+    --phone-text-size-description-default: 13px;
+    --phone-text-size-description-low: 11px;
+    --phone-text-size-sub: 10px;
+
+    --padding-button-default: 28px 50px;
+    --margin-sections: 120px;
+
+    --fade-from-bottom-animation: fadeFromBottom 1s ease forwards;
+    --fade-to-bottom-animation: fadeToBottom 1s ease forwards;
+
+    --breakpoint-mobile: 414px;
+    --breakpoint-tablet: 1024px;
+    --breakpoint-desktop: 1820px;
+    --padding-container: 20px;
+}
+
+@keyframes fadeFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeToBottom {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
