@@ -56,6 +56,7 @@
 
     --fade-from-bottom-animation: fadeFromBottom 1s ease forwards;
     --fade-to-bottom-animation: fadeToBottom 1s ease forwards;
+    --transition: 0.3s linear;
 
     --breakpoint-mobile: 414px;
     --breakpoint-tablet: 1024px;

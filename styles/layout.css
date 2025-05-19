@@ -1,8 +1,7 @@
 .container {
     padding: var(--padding-container);
     margin: 0 auto;
-    max-width: 1200px;
-    /* max-width: var(--breakpoint-desktop); */
+    max-width: var(--breakpoint-desktop);
     width: 100%;
     box-sizing: border-box;
 }
