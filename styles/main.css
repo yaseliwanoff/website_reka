@@ -9,6 +9,8 @@
 @import url("../styles/sections/cooperation-section_style.css");
 @import url("../styles/sections/complex-solutions-section_style.css");
 @import url("../styles/sections/clients-section_style.css");
+@import url("../styles/sections/news-section_style.css");
+@import url("../styles/sections/footer_style.css");
 
 :root {
     --text-color-white: #FFFFFF;
