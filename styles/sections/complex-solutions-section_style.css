@@ -21,6 +21,39 @@
     padding-block: 50px;
 }
 
+.double-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double-wrap .slider-buttons {
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.double-wrap .slider-buttons button {
+    width: 50px;
+    height: 50px;
+    opacity: 100%;
+    border-radius: 999px;
+    border: 1px solid var(--border-color-gray-dark);
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.double-wrap .slider-buttons button:hover {
+    border: 1px solid white;
+}
+
+.double-wrap .slider-buttons button:active {
+    opacity: 50%;
+}
+
 .complex-solutions .complex-solutions-wrap .complex-solutions-blocks .complex-solutions-block {
     display: flex;
     /* align-items: start; */

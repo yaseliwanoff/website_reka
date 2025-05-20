@@ -1,0 +1,29 @@
+.clients-section {
+    margin-bottom: var(--margin-sections);
+}
+
+.clients-section h2 {
+    text-transform: uppercase;
+    font-family: var(--font-name-title);
+    font-size: var(--desktop-text-size-h2);
+    line-height: 90px;
+    padding-bottom: 50px;
+}
+
+.clients-section .clients-section-blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.clients-section .clients-section-blocks .client-section-block {
+    padding: 30px;
+    border: 1px solid var(--border-color-gray-light);
+}
+
+.clients-section .clients-section-blocks .client-section-block:nth-child(-n+3) {
+    border-bottom: none;
+}
+
+.clients-section .clients-section-blocks .client-section-block:not(:nth-child(3n)) {
+    border-right: none;
+}
