@@ -19,7 +19,8 @@
     --background-color-white: #FFFFFF;
     --background-color-purple: #8A8CCE;
 
-    --border-color-gray: #E4E4E4;
+    --border-color-gray-light: #E4E4E4;
+    --border-color-gray-dark: #4D4D4D;
     --border-color-purple: #8A8CCE;
 
     --font-name-title: "DrukCyr";
