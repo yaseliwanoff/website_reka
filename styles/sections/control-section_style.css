@@ -1,0 +1,51 @@
+.control-section {
+    margin-bottom: var(--margin-sections);
+    padding: 0;
+    background-color: var(--background-color-white);
+    height: 775px;
+    margin-top: -212px;
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 7px 42px -5px rgba(46, 46, 46, 0.21); 
+    -moz-box-shadow: 0px 7px 42px -5px rgba(46, 46, 46, 0.21); 
+    box-shadow: 0px 7px 42px -5px rgba(46, 46, 46, 0.21);
+}
+
+.control-section .control-section-text {
+    padding: 22px 50px;
+}
+
+.control-section .control-section-text h2 {
+    position: relative;
+    font-size: var(--desktop-text-size-h2);
+    font-family: var(--font-name-title);
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 90px;
+    width: 352px;
+}
+
+.control-section .control-section-text .control-section-blocks {
+    position: absolute;
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    bottom: 68px;
+}
+
+
+.control-section .control-section-text .control-section-blocks h3 {
+    font-family: var(--font-name-title);
+    font-size: var(--desktop-text-size-h3);
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.control-section .control-section-text .control-section-blocks .control-section-block-description p {
+    width: 131px;
+    font-size: var(--desktop-text-size-description-default);
+    color: var(--text-color-gray-light);
+    line-height: 20px;
+}

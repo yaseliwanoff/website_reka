@@ -4,6 +4,10 @@
 @import url("../styles/reset..css");
 
 @import url("../styles/sections/header_style.css");
+@import url("../styles/sections/hero-section_style.css");
+@import url("../styles/sections/control-section_style.css");
+@import url("../styles/sections/cooperation-section_style.css");
+@import url("../styles/sections/complex-solutions_style.css");
 
 :root {
     --text-color-white: #FFFFFF;
