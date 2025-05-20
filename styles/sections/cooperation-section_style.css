@@ -63,6 +63,7 @@
     display: flex;
     width: 100px;
     font-weight: 500;
+    text-decoration: underline;
     font-size: var(--desktop-text-size-description-default);
 }
 
@@ -74,3 +75,27 @@
 .cooperation-section .cooperation-section-blocks .cooperation-section-block .cooperation-section-link:hover img {
     transform: translateX(10px);
 }
+
+.cooperation-section-block {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s linear;
+}
+
+.cooperation-section-block::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: var(--background-color-purple);
+    z-index: -1;
+    transition: height 0.4s linear;
+}
+
+.cooperation-section-block:hover::before {
+    height: 100%;
+}
+
